@@ -1,0 +1,33 @@
+﻿@model SignoZodiacal.Models.ZodiacalSigno
+@{
+    ViewData["Title"] = "ZodiacalSigno";
+}
+
+<h1 class="display-4 text-center mb-lg-5">Determina tu Signo Zodiacal.</h1>
+
+<section class="row justify-content-md-center align-items-center">
+    <form action="@Url.Action("ZodiacalSigno")" method="post" class="col-5">
+        <div class="mt-2">
+            <label class="col-form-label font-weight-bold">Selecciona tu fecha de nacimiento:</label>
+        </div>
+        <div class="form-inline">
+            <div class="">
+                <input type="date" name="yourdate" class="form-control-sm" />
+            </div>
+            <div>
+                <input type="submit" class="btn btn-success btn-sm" value="Enviar" />
+            </div>
+        </div>
+    </form>
+    @if (Model != null)
+    {
+        <section class="col-2">
+            <figure class=" mt-4 figure figure-img ">
+                <img src="@Model.ImgUrl" width="250" height="250" alt="imagen del signo zodiacal" class="rounded-circle" />
+                <p class="ml-5 mt-1">Tu signo es @Model.Name. </p>
+            </figure>
+        </section>
+    }
+</section>
+
+

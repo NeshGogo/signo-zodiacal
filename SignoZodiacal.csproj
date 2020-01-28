@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\img\Acuario.jpg" />
+    <None Include="wwwroot\css\img\aries.jpg" />
+    <None Include="wwwroot\css\img\Cancer.jpg" />
+    <None Include="wwwroot\css\img\Capricornio.jpg" />
+    <None Include="wwwroot\css\img\Escorpion.jpg" />
+    <None Include="wwwroot\css\img\Geminis.jpg" />
+    <None Include="wwwroot\css\img\Leo.jpg" />
+    <None Include="wwwroot\css\img\Libra.jpg" />
+    <None Include="wwwroot\css\img\Piscis.jpg" />
+    <None Include="wwwroot\css\img\Sagitario.jpg" />
+    <None Include="wwwroot\css\img\Tauro.jpg" />
+    <None Include="wwwroot\css\img\Virgo.jpg" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+</Project>
