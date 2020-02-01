@@ -31,3 +31,36 @@ D:\All Data\Universidad\C# Intermedio\SignoZodiacal\SignoZodiacal\obj\Debug\netc
 D:\All Data\Universidad\C# Intermedio\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.pdb
 D:\All Data\Universidad\C# Intermedio\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.csproj.CopyComplete
 D:\All Data\Universidad\C# Intermedio\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Home\ZodiacalSigno.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\appsettings.json
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.deps.json
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.runtimeconfig.json
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.runtimeconfig.dev.json
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.dll
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.pdb
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.Views.dll
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\bin\Debug\netcoreapp2.2\SignoZodiacal.Views.pdb
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.csprojAssemblyReference.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.RazorAssemblyInfo.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.RazorAssemblyInfo.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.AssemblyInfoInputs.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.AssemblyInfo.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.TagHelpers.input.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.TagHelpers.output.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.RazorCoreGenerate.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Home\ZodiacalSigno.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.RazorTargetAssemblyInfo.cache
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.RazorTargetAssemblyInfo.cs
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.Views.pdb
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.dll
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.pdb
+D:\All Data\Universidad\C# Intermedio\Practica 1\SignoZodiacal\SignoZodiacal\obj\Debug\netcoreapp2.2\SignoZodiacal.csproj.CopyComplete
