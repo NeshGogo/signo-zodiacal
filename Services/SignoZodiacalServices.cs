@@ -10,13 +10,21 @@ namespace SignoZodiacal.Services
     {
         public ZodiacalSigno  GetSignoZodiacalByDate( DateTime userDate)
         {
-            
             var signosZodiacles = SignoZodiacales(userDate.Year);
-            var zodiacalsigno = from sz in signosZodiacles
-                                where (sz.StartDate.Month == userDate.Month && userDate.Day >= sz.StartDate.Day && userDate.Day <= 31) || 
-                                (sz.EndDate.Month == userDate.Month && userDate.Day >= 1 && userDate.Day <= sz.EndDate.Day )
-                                select sz;
-            return zodiacalsigno.FirstOrDefault();
+            ZodiacalSigno zodiacalsigno;
+
+            if (userDate.Month == 12 && userDate.Day > 21)
+            {
+                DateTime mewUserDate;
+                mewUserDate = userDate.AddYears(-1);
+                zodiacalsigno = signosZodiacles.FirstOrDefault(sz => mewUserDate >= sz.StartDate && mewUserDate <= sz.EndDate);
+                return zodiacalsigno;
+            }
+
+            zodiacalsigno = signosZodiacles.FirstOrDefault(sz => userDate >= sz.StartDate && userDate <= sz.EndDate);
+
+
+            return zodiacalsigno;
         }
         private List<ZodiacalSigno> SignoZodiacales(int year)
         {
@@ -32,7 +40,7 @@ namespace SignoZodiacal.Services
                new ZodiacalSigno(){ Id=1, Name = "Libra", StartDate = Convert.ToDateTime("09/23/"+year), EndDate = Convert.ToDateTime("10/22/"+year), ImgUrl= "../css/img/Libra.jpg" },
                new ZodiacalSigno(){ Id=1, Name = "Escorpio", StartDate = Convert.ToDateTime("10/23/"+year), EndDate = Convert.ToDateTime("11/21/"+year), ImgUrl= "../css/img/Escorpion.jpg" },
                new ZodiacalSigno(){ Id=1, Name = "Sagitario", StartDate = Convert.ToDateTime("11/22/"+year), EndDate = Convert.ToDateTime("12/21/"+year), ImgUrl= "../css/img/Sagitario.jpg" },
-               new ZodiacalSigno(){ Id=1, Name = "Capricornio", StartDate = Convert.ToDateTime("12/22/"+year), EndDate = Convert.ToDateTime("01/19/"+year), ImgUrl= "../css/img/Capricornio.jpg" },
+               new ZodiacalSigno(){ Id=1, Name = "Capricornio", StartDate = Convert.ToDateTime("12/22/"+(year-1)), EndDate = Convert.ToDateTime("01/19/"+year), ImgUrl= "../css/img/Capricornio.jpg" },
                new ZodiacalSigno(){ Id=1, Name = "Acuario", StartDate = Convert.ToDateTime("01/20/"+year), EndDate = Convert.ToDateTime("02/18/"+year), ImgUrl= "../css/img/Acuario.jpg" },
                new ZodiacalSigno(){ Id=1, Name = "Piscis", StartDate = Convert.ToDateTime("02/19/"+year), EndDate = Convert.ToDateTime("03/20/"+year), ImgUrl= "../css/img/Piscis.jpg" },
             };
